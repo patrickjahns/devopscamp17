@@ -2,7 +2,7 @@ pipeline:
   step:
     image: bigtruedata/php-mysqli
     commands:
-      - sleep 60
+      - sleep 15
       - php connect.php
 
 services:
