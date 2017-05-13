@@ -7,7 +7,7 @@ pipeline:
 
 services:
   database:
-    image: mariadb
+    image: mysql
     environment:
      - MYSQL_ROOT_PASSWORD=root
      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
