@@ -1,0 +1,4 @@
+pipeline:
+	image: php7.0-alpine
+	commands:
+		- php -v
