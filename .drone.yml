@@ -1,5 +1,12 @@
 pipeline:
   blubb:
-    image: php:7.0-alpine
+    image: php:${PHP_VERSION}-alpine
     commands:
       - php -v
+
+
+matrix:
+  PHP_VERSION:
+    - 5.6
+    - 7.0
+    - 7.1
