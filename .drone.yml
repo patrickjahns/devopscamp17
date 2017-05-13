@@ -2,6 +2,7 @@ pipeline:
   step:
     image: php:7.0-alpine
     commands:
+      - php -v
       - php connect.php
 
 services:
