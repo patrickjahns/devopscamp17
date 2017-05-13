@@ -1,6 +1,6 @@
 pipeline:
   step:
-    image: php:7.0-alpine
+    image: bigtruedata/php-mysqli
     commands:
       - php connect.php
 
