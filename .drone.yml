@@ -1,5 +1,17 @@
 pipeline:
-  blubb:
+  parallel_1:
+    image: php:${PHP_VERSION}-alpine
+    group: parallel
+    commands:
+      - php sleep.php
+
+  parallel_2:
+    image: php:${PHP_VERSION}-alpine
+    group: parallel
+    commands:
+      - php sleep.php
+
+  non_parallel:
     image: php:${PHP_VERSION}-alpine
     commands:
       - php -v
