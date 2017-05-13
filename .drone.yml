@@ -2,7 +2,7 @@ pipeline:
   step:
     image: bigtruedata/php-mysqli
     commands:
-      - sleep 20
+      - sleep 40
       - php connect.php
 
 services:
@@ -13,3 +13,5 @@ services:
      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
      - MYSQL_USER=username
      - MYSQL_PASSWORD=password
+
+
