@@ -1,5 +1,5 @@
 pipeline:
-  step:
+  blubb:
     image: php:7.0-alpine
     commands:
       - php -v
