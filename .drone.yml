@@ -1,4 +1,5 @@
 pipeline:
-	image: php7.0-alpine
-	commands:
-		- php -v
+  step:
+    image: php:7.0-alpine
+    commands:
+      - php -v
