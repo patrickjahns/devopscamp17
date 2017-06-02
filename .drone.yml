@@ -1,6 +1,6 @@
 pipeline:
   parallel_1:
-    image: php: docker.solutiondrive.de/repository/library/php-xdebug:7.1.3
+    image: docker.solutiondrive.de/repository/library/php-xdebug:7.1.3
     group: parallel
     commands:
       - php sleep.php
